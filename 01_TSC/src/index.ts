@@ -49,3 +49,10 @@ players = [
   [10, 'L. Messi']
 ];
 
+//  INFERENCIA DE TIPOS
+// AL DECLARAR UNA VARIABLE, SI NO LA INICIALIZO, TS LE ASIGNA EL TIPO ANY
+// AL DECLARAR UNA VARIABLE, SI NO LE INDICO EL TIPO, PERO LA INICIALIZO, LE ASIGNA EL TIPO DEL VALOR INDICADO.
+
+let miVariable; // tomara el tipo any
+let miVariable1: string; // tomara el tipo string
+let miVariable2 = 'Hola mundo!'; // tomara el tipo string
