@@ -26,7 +26,26 @@ TS
 
 */
 
-let userName: string = "Diego";
+let userName: string = 'Diego';
 let userAge: number = 30;
 
 console.log(`Hola mundo mi nombre es: ${userName} y  tengo ${userAge} años`);
+
+// ARRAYS
+let arrNum: number[] = [1, 2, 3,];
+let arrNum2: Array<number> = [1, 2, 3,];
+let arrStr: string[] = ['uno', 'dos'];
+let arrAny: any[] = ['uno', 2, true];
+
+// TUPLA
+let tuplaPlayers: [string, number, boolean] = ['Doncic', 2, true];
+
+// ARRAY DE TUPLAS
+
+let players: [number, string][];
+
+players = [
+  [1, 'E. Martinez'],
+  [10, 'L. Messi']
+];
+
